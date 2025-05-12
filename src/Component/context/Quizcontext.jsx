@@ -20,9 +20,9 @@ const [state,dispatch]=useReducer(Quizreduscer,initalstate)
 
 
 
-    return<Quizcontext.Provider value={{...state,dispatch}}>
+    return<quizcontext.Provider value={{...state,dispatch}}>
     {children}
-</Quizcontext.Provider>
+</quizcontext.Provider>
 
 
 
