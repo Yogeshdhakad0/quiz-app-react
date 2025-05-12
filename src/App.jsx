@@ -1,5 +1,5 @@
-import Form from "./Compontet/Form"
-import Navber from "./Compontet/Navber"
+import Form from "./Component/Form"
+import Navber from "./Component/Navber"
 
 
 
