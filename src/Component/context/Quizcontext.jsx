@@ -2,7 +2,7 @@ import { useReducer } from "react";
 import { createContext } from "react";
 import { Quizreduscer } from "./Quizrreduscer";
 
-const Quizcontext =createContext()
+const quizcontext =createContext()
 
 
 export const QuizProvider=( {children})=>{
@@ -31,4 +31,4 @@ const [state,dispatch]=useReducer(Quizreduscer,initalstate)
 }
 
 
-export default Quizcontext
+export default quizcontext
