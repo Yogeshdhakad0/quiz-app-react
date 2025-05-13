@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { useEffect } from 'react'
-import { addquiz } from './context/Fact'
-import Quizcontext from './context/quizcontext'
+import { addquiz } from './Fact'
+import Quizcontext from './quizcontext'
 
 function Form() {
 const {dispatch ,quiz,counter}=useContext( Quizcontext)
